@@ -63,12 +63,8 @@ class parkingLotCreator{
         color = color.toUpperCase()
         let selectedRegistNos = colorBasedSelector(this.slots,this.colorCars,color)
 
-        let output="";
-        for(let i=0;i<selectedRegistNos.length;i++){
-            if(i==selectedRegistNos.length-1)output+=selectedRegistNos[i];
-            else output+=selectedRegistNos[i]+ ", "
-        }
-        console.log(output);
+        
+        console.log(selectedRegistNos.toString());
     }
 
     colorBasedSelectionSlot(color){
@@ -76,12 +72,7 @@ class parkingLotCreator{
         let selectedSlots = [];
         this.colorCars[color].forEach( slot => selectedSlots.push(slot) )
 
-        let output="";
-        for(let i=0;i<selectedSlots.length;i++){
-            if(i==selectedSlots.length-1)output+=selectedSlots[i];
-            else output+=selectedSlots[i]+ ", "
-        }
-        console.log(output);
+        console.log(selectedSlots.toString());
     }
 
     registNoBasedSelection(registNo){

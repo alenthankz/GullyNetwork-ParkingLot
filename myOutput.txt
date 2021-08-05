@@ -1,4 +1,3 @@
-
 D:\programming\Experince\gully_network>node index.js readFromCmd
 
 create_parking_lot 6
