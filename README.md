@@ -1,19 +1,19 @@
 # GullyNetwork-ParkingLot
 
-SET - UP:\\
+SET - UP:<br />
 
-clone this repo\\
-run "npm i" command\\
+clone this repo<br />
+run "npm i" command<br />
 
-TEST : \\
+TEST : <br />
 
-To read from file :\\
-->Run the following command\\
-node index.js readFromFile your_file_name.txt\\
-EX: node index.js readFromFile myFile.txt\\
+To read from file :<br />
+->Run the following command<br />
+node index.js readFromFile your_file_name.txt<br />
+EX: node index.js readFromFile myFile.txt<br />
 
-To read from command prompt : \\
-->Run the following command\\
-node index.js readFromCmd\\
-->then give each instruction one by one\\
-->press cntrl + c to exit\\
+To read from command prompt : <br />
+->Run the following command<br />
+node index.js readFromCmd<br />
+->then give each instruction one by one<br />
+->press cntrl + c to exit<br />
