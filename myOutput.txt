@@ -1,0 +1,48 @@
+D:\programming\Experince\Internships\gully_network>node index.js readFromCmd
+
+create_parking_lot 6
+Created a parking lot with 6 slots
+park KA-01-HH-1234 White
+Allocated slot number: 1
+park KA-01-HH-9999 White
+Allocated slot number: 2
+park KA-01-BB-0001 black
+Allocated slot number: 3
+park KA-01-HH-7777 Red
+Allocated slot number: 4
+park KA-01-HH-2701 Blue
+Allocated slot number: 5
+park KA-01-HH-3141 Black
+Allocated slot number: 6
+leave 4
+Slot number 4 is free
+status
+Slot No      Registration No          Colour
+1            KA-01-HH-1234            WHITE
+2            KA-01-HH-9999            WHITE
+3            KA-01-BB-0001            BLACK
+5            KA-01-HH-2701            BLUE
+6            KA-01-HH-3141            BLACK
+
+D:\programming\Experince\Internships\gully_network>node index.js readFromFile myFile.txt
+
+Created a parking lot with 6 slots
+Allocated slot number: 1
+Allocated slot number: 2
+Allocated slot number: 3
+Allocated slot number: 4
+Allocated slot number: 5
+Allocated slot number: 6
+Slot number 4 is free
+Slot No      Registration No          Colour
+1            KA-01-HH-1234            WHITE 
+2            KA-01-HH-9999            WHITE 
+3            KA-01-BB-0001            BLACK 
+5            KA-01-HH-2701            BLUE  
+6            KA-01-HH-3141            BLACK
+Allocated slot number: 4
+Sorry , parking lot is full
+KA-01-HH-1234, KA-01-HH-9999, KA-01-P-333
+1, 2, 4
+6
+Not Found
