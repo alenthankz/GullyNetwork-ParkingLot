@@ -21,7 +21,7 @@ else if(commands[0]=='readFromCmd'){
     standard_input.setEncoding('utf-8');
 
     standard_input.on('data', function (data) {
-        if(data === 'exit\n'){
+        if(data === 'exit\r\n'){
             process.exit();
         }else
         {
