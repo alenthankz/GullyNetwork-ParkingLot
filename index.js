@@ -15,7 +15,7 @@ if( commands[0]=='readFromFile'){
     })
 }
 
-if(commands[0]=='readFromCmd'){
+else if(commands[0]=='readFromCmd'){
     var obj ={};
     var standard_input = process.stdin;
     standard_input.setEncoding('utf-8');
