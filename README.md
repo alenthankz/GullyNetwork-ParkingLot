@@ -16,4 +16,4 @@ To read from command prompt : <br />
 ->Run the following command<br />
 node index.js readFromCmd<br />
 ->then give each instruction one by one<br />
-->press cntrl + c to exit<br />
+->type "exit" to exit or press cntrl + c<br />
